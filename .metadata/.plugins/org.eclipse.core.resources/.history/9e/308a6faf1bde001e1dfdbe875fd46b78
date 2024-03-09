@@ -1,0 +1,22 @@
+package tech.johann.ContaSystemHeranca;
+
+public class Conta {
+		
+		int numero;
+		double saldo;
+		double limite;
+		int quantidade;
+
+		boolean Sacar(double val) {
+			return false;
+		}
+
+		boolean Depositar(double val) {
+			return false;
+		}
+			
+		double getSaldo() {
+			return numero;
+		}
+
+}

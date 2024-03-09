@@ -1,0 +1,35 @@
+package tech.johann.nelioUdemy;
+
+import java.util.Locale;
+
+public class Aula23_SaidaDados {
+
+	public static void main(String[] args) {
+		//AULA 23 NELIO - SAIDA DE DAOS EM JAVA
+		
+		//declaracao da variavel "x"do tipo double e recebeu o valor de 10.35784 
+		double x = 10.35784;
+		
+		//exibe variavel com todas as casas decimais e quebra a linha
+		System.out.println(x);
+		
+		//exibe a variavel com 2 casas decimais e nao quebra linha
+		// %".2"%n serve para formatar a quantidade de casas decimais a serem exibidas
+		System.out.printf("%.2f%n", x);
+		
+		//exibir o separador virgula ou ponto a depender da regiao
+		//caso o computador esteja com idioma BR o separador sera virgula
+		//caso o computador esteja com idioma US o separador sera ponto
+		//para converter a virgula por ponto usa-se a classe locale
+		Locale.setDefault(Locale.US);
+		
+		//concatenar(JUNTAR) varios elementos em um mesmo comando de escrita
+		
+		System.out.println("RESULTADO = " + x + " METROS");
+		
+		//concatenar(JUNTAR) varios elementos no comando de escrita usando printf
+		System.out.printf("RESULTADO:  %.2f metrosn%n", x);
+
+	}
+
+}

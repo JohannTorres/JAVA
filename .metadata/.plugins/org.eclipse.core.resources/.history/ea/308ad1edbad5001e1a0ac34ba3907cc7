@@ -1,0 +1,30 @@
+package tech.johann.nelioUdemy;
+
+import java.util.Scanner;
+
+public class Aula32_If_Else_Exercicio4 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		double duracao, horaInicio, horaFim, hora, partida;
+		
+		hora = 24.00;
+		
+		horaInicio = sc.nextDouble();
+		
+		horaFim = sc.nextDouble();
+		
+		duracao = (horaInicio - horaFim);
+		
+		partida = hora - duracao;
+		
+		
+		
+		System.out.println(partida);
+		
+
+	}
+
+}

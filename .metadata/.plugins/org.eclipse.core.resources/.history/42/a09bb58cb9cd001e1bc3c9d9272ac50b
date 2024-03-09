@@ -1,0 +1,35 @@
+package tech.johann.beeJava;
+
+import java.util.Scanner;
+
+public class Desafio1008 {
+
+	public static void main(String[] args) {
+		
+
+		Scanner input = new Scanner(System.in);
+		
+		int entrada_funcionario = input.nextInt();
+		int entrada_horasTrabalhadas = input.nextInt();
+		int entrada_valorHoras = input.nextInt();
+		
+		int salario = entrada_horasTrabalhadas * entrada_valorHoras;
+		
+		
+		System.out.println("NUMBER = "+entrada_funcionario);
+		System.out.println(String.format("SALARY = U$ %.2", salario));
+		
+		
+		 
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

@@ -1,0 +1,36 @@
+package tech.johann.beeJava;
+
+import java.util.Scanner;
+
+public class Desafio1009 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc =  new Scanner(System.in);
+		
+		String nome;
+		
+		double salario;
+		
+		double vendas;
+		
+		nome = sc.nextInt();
+		
+		salario = sc.nextDouble();
+		
+		vendas = sc.nextdouble();
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

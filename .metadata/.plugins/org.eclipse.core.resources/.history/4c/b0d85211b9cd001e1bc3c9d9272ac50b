@@ -1,0 +1,19 @@
+package tech.johann.beeJava;
+
+import java.util.Scanner;
+
+public class Desafio1008 {
+
+	public static void main(String[] args) {
+		
+
+		Scanner input = new Scanner(System.in);
+		
+		int horas = input.nextDouble();
+		int salario = input.nextDouble();
+		
+		
+
+	}
+
+}

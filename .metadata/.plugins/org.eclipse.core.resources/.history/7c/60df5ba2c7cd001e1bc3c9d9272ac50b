@@ -1,0 +1,36 @@
+package tech.johann.beeJava;
+
+import java.util.Scanner;
+
+public class Desafio1035_v2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner input = new Scanner(System.in);
+		
+		boolean cond1, cond2, cond3, cond4, cond5, cond6;
+		
+		int a = input.nextInt();
+		int b = input.nextInt();
+		int c = input.nextInt();
+		int d = input.nextInt();
+		
+		cond1 = b > c;
+		cond2 = d> a;
+		cond3 = (c+d) > (a+b);
+		cond4 = c > 0;
+		cond5 = d > 0;
+		cond6 = a%2 == 0;
+		
+		if (cond1 && cond2 && cond3 && cond4 && cond5 && cond6){
+			System.out.println("Valores Aceitos");
+		}else {
+			System.out.println("Valores Não Aceitos");
+		}
+		
+		
+
+	}
+
+}

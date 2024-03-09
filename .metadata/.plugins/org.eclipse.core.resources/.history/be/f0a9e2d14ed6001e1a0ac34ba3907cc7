@@ -1,0 +1,29 @@
+package tech.johann.nelioUdemy;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Aula37_SintaxeOpicional {
+
+	public static void main(String[] args) {
+		
+		Locale.setDefault(Locale.US);
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int minutos, conta;
+
+		System.out.println("DIGITE A QUANTIDADE DE MINUTOS CONSUMIDAS");
+		
+		minutos = sc.nextInt(); 
+		
+		if (minutos < 100.0) {
+			conta = conta + (minutos - 100);
+			System.out.printf("Você consumiu:%.2f%n", consumo);
+		}else if (consumo > 100.0){
+		consumo =  
+	}
+		
+	}
+
+}

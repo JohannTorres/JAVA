@@ -1,0 +1,19 @@
+package tech.johann.nelioUdemy;
+
+public class Aula_24_Casting {
+
+	public static void main(String[] args) {
+		
+		int a = 5;
+		
+		double b = 2 * a;
+		
+		System.out.println(a);
+		System.out.println(b);
+		
+			
+		
+
+	}
+
+}

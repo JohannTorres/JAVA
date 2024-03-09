@@ -1,0 +1,34 @@
+package tech.johann.nelioUdemy;
+
+import java.util.Scanner;
+
+public class Aula29_Exercicio5 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		
+		int codPeca1, numPeca1, codPeca2, numPeca2;
+		double valorPeca1, valorPeca2, total;
+		
+		System.out.println("DIGITE O CODIGO DA PEÇA 1");
+		codPeca1 = sc.nextInt();
+		System.out.println("DIGITE O NUMERO DE PEÇAS 1");
+		numPeca1 = sc.nextInt();
+		System.out.println("DIGITE O VALOR DA PEÇA 1");
+		valorPeca1 = sc.nextDouble();
+		System.out.println("DIGITE O CODIGO DA PEÇA 2");
+		codPeca2 = sc.nextInt();
+		System.out.println("DIGITE O NUMERO DE PEÇAS 2");
+		numPeca2 = sc.nextInt();
+		System.out.println("DIGITE O VALOR DA PEÇA 2");
+		valorPeca2 = sc.nextDouble();
+		
+		total = (numPeca1 * valorPeca1) + (numPeca2 * valorPeca2);
+		
+		System.out.printf("VALOR A PAGAR: R$ %.2f%n", total);
+		
+	}
+
+}

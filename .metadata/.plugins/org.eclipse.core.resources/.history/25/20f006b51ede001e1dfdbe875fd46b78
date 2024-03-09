@@ -1,0 +1,37 @@
+package tech.johann.ContaSystemHeranca;
+
+
+public class MainApp {
+
+	public static void main(String[] args) {
+		
+		//CRIAR CONTA;
+		Conta conta1 = new Conta();
+		
+		//INICIALIZAR VARIAVEIS
+		conta1.numero = 001;
+		//SALDO CONTA 1
+		conta1.saldo = 1000;
+		//LIMITE CONTA
+		conta1.limite = 300;
+		
+		//sacar 200 reais
+		conta1.sacar(200);
+		System.out.println("SAQUE");
+		System.out.println(conta1.saldo);
+		
+		//depositar 50
+		conta1.depositar(50);
+		System.out.println("DEPOSITO");
+		System.out.println(conta1.saldo);
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

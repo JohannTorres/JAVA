@@ -1,0 +1,25 @@
+package tech.johann.beeJava;
+
+import java.util.Scanner;
+
+public class Desafio1002 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		double n = 3.14159;
+		double raio = 2.00;
+		double calculo;
+		
+		calculo = raio * raio * n;
+		
+		System.out.printf("%.4f%n",calculo);
+		
+		
+		
+		
+
+	}
+
+}
