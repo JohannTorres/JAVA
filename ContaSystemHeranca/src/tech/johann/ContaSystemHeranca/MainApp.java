@@ -10,13 +10,16 @@ public class MainApp {
 		
 		//CRIAR CONTA;
 		Conta conta1 = new Conta();
+		Conta conta2 = new Conta(2, 2);
+		Conta conta3 = new Conta(3);
+		
+		ContaEspecial
+		
 		
 		//INICIALIZAR VARIAVEIS
-		conta1.numero = 001;
+		//conta1.numero = 001;
 		//SALDO CONTA 1
-		conta1.saldo = 1000;
-		//LIMITE CONTA
-		conta1.limite = 300;
+		//conta1.saldo = 1000;
 		
 		
 		//SALDO ATUAL
@@ -37,10 +40,6 @@ public class MainApp {
 			System.out.println(conta1.getSaldo());
 		};
 		
-		System.out.println("TESTE GIT");
-		//teste Git
-		
-
 	}
 
 }
