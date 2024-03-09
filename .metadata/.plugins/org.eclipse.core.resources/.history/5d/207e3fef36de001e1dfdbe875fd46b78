@@ -37,9 +37,6 @@ public class MainApp {
 			System.out.println(conta1.getSaldo());
 		};
 		
-		System.out.println("TESTE GIT");
-		//teste Git
-		
 
 	}
 
