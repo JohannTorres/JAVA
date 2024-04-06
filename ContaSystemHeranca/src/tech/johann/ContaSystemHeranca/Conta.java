@@ -19,14 +19,11 @@ public class Conta {
 		
 		public Conta(int numeroConta) {
 			this.numero = numeroConta;
-			this.saldo = saldo = 1;
+			this.saldo = 1;
+			System.out.println("Seu saldo inicial é: R$" 
+					+ this.saldo + " " + "na sua conta de número: " 
+							+ this.numero);
 		};
-		
-		public Conta(double saldo) {
-			//this.numero = numeroConta;
-			this.saldo = saldo = 1;
-		};
-		
 		
 
 		boolean sacar(double val) {
