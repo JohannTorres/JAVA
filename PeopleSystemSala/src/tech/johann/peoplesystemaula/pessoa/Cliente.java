@@ -19,6 +19,10 @@ public class Cliente extends Pessoa{
 		this.codigo = codigo;
 		this.profissao = profissao;
 	}
+	
+	public void cadastrar() {
+		
+	}
 
 	public String getCodigo() {
 		return codigo;

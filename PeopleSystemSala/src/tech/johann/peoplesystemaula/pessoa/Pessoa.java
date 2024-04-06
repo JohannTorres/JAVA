@@ -42,7 +42,7 @@ public class Pessoa {
 				
 	}
 
-	//getts and setts
+	//getts ans setts
 	public String getNome() {
 		return nome;
 	}
