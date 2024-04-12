@@ -8,7 +8,15 @@ package tech.johann.peoplesystemaula.composicao;
 	    private String estado;
 	    private String pais;
 	    
-	    
+	    public Endereco(String rua, String numero, String cep, String cidade, String estado, String pais) {
+	    	this.rua = rua;
+	    	this.numero = numero;
+	    	this.cep = cep;
+	    	this.cidade = cidade;
+	    	this.estado = estado;
+	    	this.pais = pais;
+	    }
+	    	
 		public String getRua() {
 			return rua;
 		}

@@ -5,9 +5,10 @@ import java.time.LocalDate;
 import tech.johann.peoplesystemaula.composicao.*;
 import tech.johann.peoplesystemaula.pessoa.*;
 
+
 public class Funcionario extends Pessoa{
 	
-	private String matricula;
+	private int matricula;
 	
 	private Cargo cargo;
 	
@@ -20,13 +21,14 @@ public class Funcionario extends Pessoa{
 		
 	}
 	
-	public Funcionario(String nome, LocalDate dataNascimento, Cargo cargo, double salario, LocalDate dataAdmissao) {
+	public Funcionario(String nome, LocalDate dataNascimento, Endereco endereco, Telefone telsContato, int matricula, Cargo cargo, double salario, LocalDate dataAdmissao) {
 		super(nome, dataNascimento, endereco, telsContato);
+		this.matricula = matricula;
 		this.cargo = cargo;
 		this.salario = salario;
 		this.dataAdmissao = dataAdmissao;
-		this.endereco = endereco;
 	}
+	
 	
 	//reajusta salario
 	public void reajustarSalario(double percentual) {
@@ -40,12 +42,11 @@ public class Funcionario extends Pessoa{
 		
 	}
 
-	
-	public String getMatricula() {
+	public int getMatricula() {
 		return matricula;
 	}
 
-	public void setMatricula(String matricula) {
+	public void setMatricula(int matricula) {
 		this.matricula = matricula;
 	}
 
@@ -53,15 +54,15 @@ public class Funcionario extends Pessoa{
 		return cargo;
 	}
 
-	//public void setCargo(Cargo cargo) {
-	//	this.cargo = cargo;
-	//}
+	public void setCargo(Cargo cargo) {
+		this.cargo = cargo;
+	}
 
 	public double getSalario() {
 		return salario;
 	}
 
-	public void setSalario(Float salario) {
+	public void setSalario(double salario) {
 		this.salario = salario;
 	}
 
@@ -72,12 +73,6 @@ public class Funcionario extends Pessoa{
 	public void setDataAdmissao(LocalDate dataAdmissao) {
 		this.dataAdmissao = dataAdmissao;
 	}
-
-	public void cadastrar() {
-		
-	}
 	
-	public int obterIdade() {	
-		
-	}
+
 }

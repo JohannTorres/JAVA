@@ -22,6 +22,5 @@ public class Telefone {
 		this.numTelefone = numTelefone;
 	}
 	
-	
 
 }

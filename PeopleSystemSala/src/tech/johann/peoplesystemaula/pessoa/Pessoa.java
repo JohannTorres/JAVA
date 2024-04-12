@@ -1,7 +1,6 @@
 package tech.johann.peoplesystemaula.pessoa;
-import tech.johann.peoplesystemaula.composicao.Endereco;
-import tech.johann.peoplesystemaula.composicao.Telefone;
 
+import tech.johann.peoplesystemaula.composicao.*;
 import java.time.LocalDate;
 import java.time.Period;
 

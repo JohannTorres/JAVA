@@ -1,6 +1,8 @@
 package tech.johann.peoplesystemaula.pessoa;
 
-import tech.johann.peoplesystemaula.composicao.Profissao;
+import java.time.LocalDate;
+
+import tech.johann.peoplesystemaula.composicao.*;
 
 public class Cliente extends Pessoa{
 	
@@ -14,15 +16,12 @@ public class Cliente extends Pessoa{
 		
 	}
 
-	public Cliente(String codigo, Profissao profissao) {
-		super();
+	public Cliente(String nome, LocalDate dataNascimento, Endereco endereco, Telefone telsContato, String codigo, Profissao profissao) {
+		super(nome, dataNascimento, endereco, telsContato);
 		this.codigo = codigo;
 		this.profissao = profissao;
 	}
 	
-	public void cadastrar() {
-		
-	}
 
 	public String getCodigo() {
 		return codigo;
